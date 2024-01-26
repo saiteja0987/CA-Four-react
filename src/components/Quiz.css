@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 800px;
+  background-color: #a9dbec;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 4px solid #00203f;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+:root {
+  --button-bg-light: #00203f;
+  --button-text-light: white;
+  --button-bg-dark: #a9dbec;
+  --button-text-dark: black;
+}
+header img {
+  width: 50%;
+  margin: 10px;
+}
+
+header button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 20px;
+  width: 190px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #00203f;
+  color: var(--button-text-light);
+  font-weight: bolder;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+main {
+  width: 800px;
+  height: 500px;
+  background-color: #00203f;
+  margin: 40px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.question p {
+  color: white;
+  font-size: xx-large;
+  margin: 20px;
+  text-align: center;
+}
+
+.question button {
+  width: 600px;
+  height: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  font-size: large;
+  outline: none;
+  cursor: pointer;
+  transition: 1rm ease all;
+  border-radius: 20px;
+  background-color: #a9dbec;
+  color: black;
+  border: none;
+}
+
+.completed p {
+  font-size: xx-large;
+  color: #a9dbec;
+  text-align: center;
+}
+
+.completed h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-right: 10%;
+}
+
+.completed button {
+  color: black;
+  background-color: #a9dbec;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 10%;
+
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#highlited{
+  background-color: red;
+}
+
+.high{
+  margin-left: 500px;
+}
+
+.high img{
+  width: 50%;
+}
+
+.kalvium{
+  width: 10%;
+}
